@@ -8,4 +8,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
+    a=1
+    b=2
+    c=a+b
     return app.send_static_file("index.html")
